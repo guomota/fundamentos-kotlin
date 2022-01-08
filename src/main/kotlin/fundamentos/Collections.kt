@@ -9,7 +9,7 @@ fun main() {
     println(mapNomeIdade)
     mapNomeIdade.remove("Bruno")
     println(mapNomeIdade)
-    mapNomeIdade.putIfAbsent("Gsuatvo", 30)
+    mapNomeIdade.putIfAbsent("Gustavo", 30)
     println(mapNomeIdade)
     //Não pode existir chave duplicada, apenas valor (K,V)
 
